@@ -16,6 +16,12 @@ const ARTICLES_DIR = path.join(process.cwd(), "src/articles");
 
 export function getAllTags() {
   let tags = new Set();
+
+  // Verificar se a pasta existe antes de tentar ler
+  if (!fs.existsSync(ARTICLES_DIR)) {
+    return [];
+  }
+
   const files = fs.readdirSync(ARTICLES_DIR);
 
   for (const file of files) {
@@ -35,6 +41,11 @@ export function getAllTags() {
 }
 
 export function getArticles() {
+  // Verificar se a pasta existe antes de tentar ler
+  if (!fs.existsSync(ARTICLES_DIR)) {
+    return [];
+  }
+
   const files = fs.readdirSync(ARTICLES_DIR);
 
   const allArticlesData = files.map((file) => {
