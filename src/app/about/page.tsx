@@ -2,87 +2,48 @@ export default function AboutPage() {
   return (
     <>
       <h1 className="mb-16 mt-4 text-center text-5xl max-sm:text-4xl">
-        About me
+        Sobre mim
       </h1>
       <article>
         <p>
-          I was born in São Paulo and moved to{" "}
-          <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
-            Florianópolis
+          Olá! Meu nome é Ítalo Marcony, sou desenvolvedor Full Stack, apaixonado por criar soluções digitais que unam tecnologia, design, performance e usabilidade.
+        </p>
+        <p>
+          Sou graduado em{" "}
+          <a href="https://unifg.edu.br">
+            Ciência da Computação pela UNIFG
           </a>{" "}
-          as a 10 year old kid. I fell in love with the nature, sport and music
-          culture of the Magical Island.
+          e atualmente estou me formando em Análise e Desenvolvimento de Sistemas, ampliando meus conhecimentos em programação, arquitetura de software e integração de sistemas.
         </p>
         <p>
-          In the next decade, I{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
-            became a singer-songwriter
-          </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
+          Também participei de um curso de desenvolvimento frontend em parceria com a Prefeitura do Recife, onde tive a oportunidade de aprofundar minhas habilidades na construção de interfaces modernas, responsivas e centradas na experiência do usuário.
         </p>
         <p>
-          Then I studied Economics at{" "}
-          <a href="https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina">
-            Federal University of Santa Catarina
-          </a>
-          , mostly for my love for History and Math. I learned a lot of
-          Politics, Statistics and Macroeconomics.
+          Minha trajetória envolve experiências em frontend e backend, com atuação em projetos que vão desde o desenvolvimento de interfaces dinâmicas até a criação de APIs e integrações de dados.
         </p>
         <p>
-          But I&apos;d spent too long studying models that weren&apos;t
-          applicable in real-life. I felt disconnected from my studies which led
-          to me dropping out after 2 years.
+          Trabalho com tecnologias como Vue.js, React, TailwindCSS, JavaScript, Flask e Golang, além de bancos de dados como PostgreSQL e MongoDB. Entre os destaques, já desenvolvi dashboards interativos para visualização de dados, CRUDs completos e pipelines de integração que conectam APIs e bancos de forma eficiente.
         </p>
         <p>
-          Then came my first contact with programming: as a Data Analyst at a
-          Tech startup. We used Microsoft Excel and Power BI to generate our
-          reports.
+          Como profissional, busco constantemente evoluir minhas habilidades técnicas e fortalecer meu perfil como desenvolvedor Full Stack, equilibrando a visão do frontend, focada em experiência do usuário, com a robustez do backend, voltada para performance, escalabilidade e segurança.
         </p>
         <p>
-          With millions of data entries, it wasn&apos;t long until my Dell
-          notebook became unusably slow. This led me to learn Python and Pandas
-          to better deal with datasets, as well as Selenium and pyautogui.
+          Meu objetivo é entregar aplicações funcionais, intuitivas e de alto impacto.
         </p>
         <p>
-          I&apos;ve always been obsessed with user interfaces. My friends
-          couldn&apos;t bear me pointing out broken buttons and ugly websites
-          all the time.
+          Fora do trabalho, gosto de me manter atualizado em novas tendências de tecnologia e design, além de aprender continuamente por meio de projetos pessoais.
         </p>
         <p>
-          When I found out what HTML was, I did a deep dive into the Frontend. I
-          completed FreeCodeCamp&apos;s{" "}
-          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">
-            Responsive Web Design
-          </a>{" "}
-          and swiftly progressed to Javascript and React soon after.
+          Nos meus momentos de lazer, tenho hobbies que me ajudam a equilibrar criatividade e foco, como jogar videogame, assistir filmes e séries, ouvir música, explorar novidades no mundo da tecnologia e praticar atividades ao ar livre.
         </p>
         <p>
-          I became more active within the Brazilian Dev community, sharing
-          quirky UI bugs and building my projects in public such as{" "}
-          <a href="https://phived.com">phived</a> and{" "}
-          <a href="https://css2wind.com">css2wind</a>. I collaborated with
-          hundreds of developers and contributed a lot to Open Source.
+          Se você quiser entrar em contato, envie um email para{" "}
+          <a href="mailto:italomarcony130@gmail.com">italomarcony130@gmail.com</a>.
         </p>
         <p>
-          In 2024, I traveled to Torino, Italy to visit my dad. My life flipped
-          upside down and I ended up living in Málaga for a while. After I{" "}
-          <a href="/articles/how-not-to-get-a-job-in-spain">
-            failed to get a job
-          </a>
-          , I moved to the UK and landed a job in London, where I currently
-          live.
-        </p>
-        <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
-        </p>
-        <p>Smile, you&apos;re alive :)</p>
-        <p>
-          Best,
+          Atenciosamente,
           <br />
-          Luke
+          Ítalo
         </p>
       </article>
     </>

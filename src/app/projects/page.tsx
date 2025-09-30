@@ -13,64 +13,70 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "css2wind",
+    name: "Pokedex Digital",
     description:
-      "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
-    url: "https://css2wind.com",
-    imageUrl: "/projects/css2wind.png",
-    githubUrl: "https://github.com/LukeberryPi/css2wind",
+      "Uma Pokedex interativa e moderna que permite explorar informações detalhadas sobre diferentes Pokémon. Desenvolvida com uma interface intuitiva e responsiva, consumindo dados da PokéAPI.",
+    url: "https://pokedex-digital.onrender.com/",
+    imageUrl: "/projects/pokedex-digital.png",
+    githubUrl: "https://github.com/italomarcony/PokedexDigital",
     technologies: (
       <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#DD0031] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Angular
+        </span>
+        <span className="rounded-full bg-[#000000] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Flask
+        </span>
         <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
           TypeScript
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
-          TailwindCSS
-        </span>
-        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
-          Next.js
+        <span className="rounded-full bg-[#3776AB] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Python
         </span>
       </div>
     ),
   },
   {
-    name: "King's Cross Cinema Schedule",
+    name: "Cat API",
     description:
-      "A simpler way to visualize the movies in the Everyman in the Canal 2025 in London. I watched Mean Girls and it was amazing.",
-    url: "https://kings-cross-cinema-schedule-2025.vercel.app/",
-    imageUrl: "/projects/cinema-schedule.png",
-    githubUrl: "https://github.com/LukeberryPi/kings-cross-cinema-website",
+      "Aplicação interativa que consome a Cat API para exibir imagens aleatórias de gatos. Interface moderna e responsiva, permitindo aos usuários explorar diferentes raças e suas características.",
+    url: "https://italomarcony.github.io/teste-catapi/",
+    imageUrl: "/projects/cat-api.png",
+    githubUrl: "https://github.com/italomarcony/teste-catapi",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#FF5D01] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-inherit ring-1 dark:ring-zinc-500 ring-zinc-600">
-          Astro
-        </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit ring-1 dark:ring-zinc-500 ring-zinc-600">
-          Tailwind
-        </span>
-        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none ring-1 dark:ring-zinc-500 ring-zinc-600">
-          Vercel
-        </span>
-      </div>
-    ),
-  },
-  {
-    name: "phived",
-    description:
-      "Stop procrastinating by dealing with five tasks at a time. If you want to add more tasks you need to resolve a previous one. Surprisingly effective.",
-    url: "https://phived.com",
-    imageUrl: "/projects/phived.png",
-    githubUrl: "https://github.com/LukeberryPi/phived",
-    technologies: (
-      <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
           React
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit ring-1 dark:ring-zinc-500 ring-zinc-600">
-          TailwindCSS
+        <span className="rounded-full bg-[#F7DF1E] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          JavaScript
         </span>
-        <span className="rounded-full bg-gradient-to-r from-[#926AFE] to-[#49C7FF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none ring-1 dark:ring-zinc-500 ring-zinc-600">
-          Vite
+        <span className="rounded-full bg-[#E34F26] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          HTML5
+        </span>
+        <span className="rounded-full bg-[#1572B6] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          CSS3
+        </span>
+      </div>
+    ),
+  },
+  {
+    name: "Calculadora",
+    description:
+      "Calculadora web funcional e elegante com design moderno. Realiza operações matemáticas básicas com interface intuitiva e responsiva, demonstrando habilidades em lógica de programação e manipulação do DOM.",
+    url: "https://italomarcony.github.io/Calculadora/",
+    imageUrl: "/projects/calculadora.png",
+    githubUrl: "https://github.com/italomarcony/Calculadora",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#F7DF1E] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          JavaScript
+        </span>
+        <span className="rounded-full bg-[#E34F26] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          HTML5
+        </span>
+        <span className="rounded-full bg-[#1572B6] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          CSS3
         </span>
       </div>
     ),
@@ -98,7 +104,7 @@ function ProjectCard({
         src={imageUrl}
         width={1200}
         height={630}
-        alt="Logo for css2wind website"
+        alt={`Imagem do projeto ${name}`}
       />
       <div className="flex w-full justify-between divide-x divide-zinc-400 dark:divide-zinc-500">
         <a
@@ -106,14 +112,14 @@ function ProjectCard({
           target="_blank"
           className="flex grow items-center justify-center gap-2 py-4 transition-transform sm:hover:bg-zinc-100 sm:dark:hover:bg-zinc-800"
         >
-          <Globe strokeWidth={1.4} className="size-5" /> Visit website
+          <Globe strokeWidth={1.4} className="size-5" /> Visitar site
         </a>
         <a
           href={githubUrl}
           target="_blank"
           className="flex grow items-center justify-center gap-2 py-4 transition-transform sm:hover:bg-zinc-100 sm:dark:hover:bg-zinc-800"
         >
-          <GitBranch strokeWidth={1.4} className="size-5" /> View code
+          <GitBranch strokeWidth={1.4} className="size-5" /> Ver código
         </a>
       </div>
     </div>
@@ -124,13 +130,19 @@ export default function ProjectsPage() {
   return (
     <>
       <h1 className="mb-16 mt-4 text-center text-5xl max-sm:text-4xl">
-        Projects
+        Projetos
       </h1>
-      <div className="space-y-20">
-        {projects.map((project) => (
-          <ProjectCard key={project.url} {...project} />
-        ))}
-      </div>
+      {projects.length > 0 ? (
+        <div className="space-y-20">
+          {projects.map((project) => (
+            <ProjectCard key={project.url} {...project} />
+          ))}
+        </div>
+      ) : (
+        <p className="text-center text-zinc-500 dark:text-zinc-400">
+          Em breve, novos projetos serão adicionados aqui.
+        </p>
+      )}
     </>
   );
 }

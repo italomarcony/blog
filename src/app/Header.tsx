@@ -54,9 +54,9 @@ export default function Header() {
             <ChevronLeft strokeWidth={1.4} />
           </div>
           <div className="flex flex-col max-sm:items-center">
-            Luke Berry
+            Ítalo Marcony
             <span className="text-zinc-500 dark:text-zinc-400">
-              Software Engineer
+              Desenvolvedor FullStack
             </span>
           </div>
         </Link>
@@ -81,10 +81,10 @@ export default function Header() {
           <Link
             className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600 dark:ring-opacity-0"
             href="/projects"
-            aria-label="View projects"
+            aria-label="Ver projetos"
             aria-current={path === "/projects" ? "page" : undefined}
           >
-            /projects
+            /projetos
             <Triangle
               aria-hidden="true"
               className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
@@ -93,10 +93,10 @@ export default function Header() {
           <Link
             className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600 dark:ring-opacity-0"
             href="/articles"
-            aria-label="View articles"
+            aria-label="Ver artigos"
             aria-current={path.startsWith("/articles") ? "page" : undefined}
           >
-            /articles
+            /artigos
             <Triangle
               aria-hidden="true"
               className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
@@ -105,10 +105,10 @@ export default function Header() {
           <Link
             className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600 dark:ring-opacity-0"
             href="/about"
-            aria-label="View about page"
+            aria-label="Ver página sobre"
             aria-current={path === "/about" ? "page" : undefined}
           >
-            /about
+            /sobre
             <Triangle
               aria-hidden="true"
               className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"

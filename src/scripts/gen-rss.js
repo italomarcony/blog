@@ -34,11 +34,11 @@ function generateRSS() {
   const feedUrl = `${siteUrl}/rss.xml`;
 
   const feed = new RSS({
-    title: "Lukeberry Pi Blog",
-    description: "This is my blog",
+    title: "Ítalo Marcony Blog",
+    description: "Blog pessoal de Ítalo Marcony",
     feed_url: feedUrl,
     site_url: siteUrl,
-    language: "en",
+    language: "pt-br",
   });
 
   const posts = getPosts();
