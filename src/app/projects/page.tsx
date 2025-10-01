@@ -39,7 +39,7 @@ const projects: Project[] = [
   {
     name: "Cat API",
     description:
-      "Aplicação interativa que consome a Cat API para exibir imagens aleatórias de gatos. Interface moderna e responsiva, permitindo aos usuários explorar diferentes raças e suas características.",
+      "O site é uma plataforma interativa dedicada a amantes de gatos, oferecendo informações completas sobre diferentes raças de gatos, além de recursos que ajudam os usuários a descobrir e comparar suas características favoritas felinas.",
     url: "https://italomarcony.github.io/teste-catapi/",
     imageUrl: "/projects/cat-api.png",
     githubUrl: "https://github.com/italomarcony/teste-catapi",
