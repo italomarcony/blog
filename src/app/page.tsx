@@ -86,10 +86,11 @@ export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
       <p className="text-sm">
-        Nascido em Recife, sou desenvolvedor Full Stack apaixonado por tecnologia e design.
-        Formado em Ciência da Computação e atualmente em Análise e Desenvolvimento de Sistemas.
-        Trabalho com frontend e backend, usando Angular, Vue.js, React, Golang, Flask, PostgreSQL e MongoDB.
-        Gosto de videogames, música, filmes, séries e explorar novidades em tecnologia. Amo criar websites bonitos.
+        Nascido em Recife, sou desenvolvedor Full Stack apaixonado por
+        tecnologia e design. Formado em Ciência da Computação e atualmente
+        cursando Análise e Desenvolvimento de Sistemas. Trabalho com
+        desenvolvimento, usando tecnologias como Angular e React. Gosto de
+        videogames, música, filmes, séries e explorar novidades em tecnologia.
       </p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
