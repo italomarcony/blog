@@ -61,6 +61,33 @@ const projects: Project[] = [
     ),
   },
   {
+    name: "Calculadora Energia",
+    description:
+      "Sistema web para cálculo e análise de consumo energético. Permite aos usuários calcular custos de energia elétrica com base em diferentes parâmetros, auxiliando na gestão e economia de energia residencial e comercial.",
+    url: "https://calculadora-energia-eight.vercel.app/",
+    imageUrl: "/projects/calculadora-energia.png",
+    githubUrl: "https://github.com/italomarcony/CalculadoraEnergia",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          React
+        </span>
+        <span className="rounded-full bg-[#646CFF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Vite
+        </span>
+        <span className="rounded-full bg-[#38BDF8] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Tailwind CSS
+        </span>
+        <span className="rounded-full bg-[#3776AB] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Python
+        </span>
+        <span className="rounded-full bg-[#000000] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+          Flask
+        </span>
+      </div>
+    ),
+  },
+  {
     name: "Calculadora",
     description:
       "Calculadora web funcional e elegante com design moderno. Realiza operações matemáticas básicas com interface intuitiva e responsiva, demonstrando habilidades em lógica de programação e manipulação do DOM.",
