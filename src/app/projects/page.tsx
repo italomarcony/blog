@@ -21,16 +21,16 @@ const projects: Project[] = [
     githubUrl: "https://github.com/italomarcony/PokedexDigital",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#DD0031] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#DD0031] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Angular
         </span>
-        <span className="rounded-full bg-[#000000] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#000000] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Flask
         </span>
-        <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           TypeScript
         </span>
-        <span className="rounded-full bg-[#3776AB] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#3776AB] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Python
         </span>
       </div>
@@ -45,16 +45,16 @@ const projects: Project[] = [
     githubUrl: "https://github.com/italomarcony/teste-catapi",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           React
         </span>
-        <span className="rounded-full bg-[#F7DF1E] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#F7DF1E] px-2.5 py-0.5 text-sm text-zinc-950 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           JavaScript
         </span>
-        <span className="rounded-full bg-[#E34F26] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#E34F26] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           HTML5
         </span>
-        <span className="rounded-full bg-[#1572B6] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#1572B6] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           CSS3
         </span>
       </div>
@@ -69,41 +69,41 @@ const projects: Project[] = [
     githubUrl: "https://github.com/italomarcony/CalculadoraEnergia",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           React
         </span>
-        <span className="rounded-full bg-[#646CFF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#646CFF] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Vite
         </span>
-        <span className="rounded-full bg-[#38BDF8] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#38BDF8] px-2.5 py-0.5 text-sm text-zinc-950 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Tailwind CSS
         </span>
-        <span className="rounded-full bg-[#3776AB] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#3776AB] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Python
         </span>
-        <span className="rounded-full bg-[#000000] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
+        <span className="rounded-full bg-[#000000] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
           Flask
         </span>
       </div>
     ),
   },
   {
-    name: "Calculadora",
+    name: "Todo List",
     description:
-      "Calculadora web funcional e elegante com design moderno. Realiza operações matemáticas básicas com interface intuitiva e responsiva, demonstrando habilidades em lógica de programação e manipulação do DOM.",
-    url: "https://italomarcony.github.io/Calculadora/",
-    imageUrl: "/projects/calculadora.png",
-    githubUrl: "https://github.com/italomarcony/Calculadora",
+      "Aplicativo de lista de tarefas moderno e funcional para gerenciar suas atividades diárias. Interface intuitiva que permite adicionar, editar, marcar como concluído e excluir tarefas, com design responsivo e experiência de usuário otimizada.",
+    url: "https://todo-list-bice-delta-71.vercel.app/",
+    imageUrl: "/projects/todo-list.png",
+    githubUrl: "https://github.com/italomarcony/todo-list",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#F7DF1E] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
-          JavaScript
+        <span className="rounded-full bg-[#61DAFB] px-2.5 py-0.5 text-sm text-zinc-950 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
+          React
         </span>
-        <span className="rounded-full bg-[#E34F26] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
-          HTML5
+        <span className="rounded-full bg-[#646CFF] px-2.5 py-0.5 text-sm text-zinc-100 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
+          Vite
         </span>
-        <span className="rounded-full bg-[#1572B6] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 ring-1 dark:ring-zinc-500 ring-zinc-600">
-          CSS3
+        <span className="rounded-full bg-[#38BDF8] px-2.5 py-0.5 text-sm text-zinc-950 ring-1 ring-zinc-600 dark:bg-inherit dark:text-zinc-200 dark:ring-zinc-500">
+          Tailwind CSS
         </span>
       </div>
     ),
@@ -119,7 +119,7 @@ function ProjectCard({
   technologies,
 }: Project) {
   return (
-    <div className="flex-col divide-y divide-zinc-400 overflow-hidden rounded ring-1 dark:zinc-500 dark:ring-zinc-500 ring-zinc-600">
+    <div className="dark:zinc-500 flex-col divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-600 dark:ring-zinc-500">
       <div className="flex items-center justify-between gap-4 p-4 max-sm:flex-col">
         <h2 className="text-xl">{name}</h2>
         {technologies}
