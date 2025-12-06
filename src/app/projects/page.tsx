@@ -37,7 +37,7 @@ const projects: Project[] = [
     ),
   },
   {
-    name: "Cat API",
+    name: "MiauPédia",
     description:
       "O site é uma plataforma interativa dedicada a amantes de gatos, oferecendo informações completas sobre diferentes raças de gatos, além de recursos que ajudam os usuários a descobrir e comparar suas características favoritas felinas.",
     url: "https://italomarcony.github.io/teste-catapi/",
